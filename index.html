@@ -1,0 +1,58 @@
+<!Doctype html>
+	<html lang="en-us">
+	<head>
+
+			<title>Directive Compile Function</title>
+			<meta charset="utf-8">
+			
+			
+
+	</head>
+
+	<body ng-app="app">
+
+		<div ng-controller="someController">
+
+		<h3>Quick usage of the telement in the compile function</h3>
+		<div telement-use></div>
+
+		<br/>
+
+
+		<h3>Quick usage of the telement and attrs in the compile function</h3>
+		<p>Type here to see: <input type="text" class="form-control" ng-model="value"/></p>
+		<div attrs-use attribute="{{value}}"></div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<!-- add angular to the page and bring in the app.js file -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+			<script src="app.js"></script>
+
+		<!-- add Twitter Bootstrap so its not so ugly -->
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+		
+
+
+	</body>
+
+
+	</html>
